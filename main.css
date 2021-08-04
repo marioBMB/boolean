@@ -1,0 +1,119 @@
+
+
+body {
+  background: url(img/background.jpg);
+  background-size: cover;
+  font-family: Helvetica;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  width: 60%;
+  margin: 2% auto;
+  padding: 5% 5% 2.5% 5%;
+}
+
+
+nav {
+  background-color: #00dd00;
+  min-height: 5vh;
+  line-height: 5vh;
+  padding: 0 30%;
+}
+
+nav button {
+  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1%;
+}
+
+h1 {
+  color: #00dd00;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+h4 {
+  font-weight: 100;
+}
+
+.logo {
+  background: url(img/logo.png);
+  width: 200px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 3% 3% 3% 0;
+  color: white;
+  position: relative !important;
+}
+
+.row.selected {
+   color: yellow !important;
+   position: relative !important;
+}
+
+.row.selected .booked_up {
+  background: url(img/booked.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  height: 100px;
+  width: 140px;
+  display: inline-block;
+}
+
+.row h2 {
+  display: inline-block;
+  padding: 0;
+  margin: 1%;
+}
+
+.row h4 {
+  padding: 0;
+  margin: 0.5%;
+}
+
+.place h4 {
+  display: inline-block;
+}
+
+
+.charge-bar {
+  border-radius: 4px;
+  height: 3vh;
+}
+
+.low {
+    background: #be4141;
+}
+
+.medium {
+  background: #f5b453;
+
+}
+
+.good {
+  background: #1ec31e;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
