@@ -4,6 +4,7 @@ body {
   background: url(img/background.jpg);
   background-size: cover;
   font-family: Helvetica;
+  overflow: hidden;
 }
 
 .container {
