@@ -27,7 +27,6 @@ function paintChargeBars(){
              element.classList.toggle("low");
            }
 
-       element.innerHTML = "";
        const widthUnit = 0.5;
        element.style.width = chargeVal * widthUnit + "%";
    });
